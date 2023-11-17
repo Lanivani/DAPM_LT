@@ -10,7 +10,7 @@
 <p>
     @Html.ActionLink("Thêm sản phẩm mới", "Create")
 </p>
-<table class="table">
+<table class="table"  style="font-size: large">
     <tr>
         <th>
            Tên sản phẩm
@@ -31,7 +31,7 @@
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
+    <tr style="font-size: large">
         <td>
             @Html.DisplayFor(modelItem => item.NamePro)
         </td>
